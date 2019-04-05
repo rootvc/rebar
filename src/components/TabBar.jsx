@@ -40,9 +40,19 @@ class TabBar extends React.Component {
                   <span class="mdc-tab__ripple"></span>
                 </button>
 
+                <button class="mdc-tab mdc-tab--active rebar-tab" role="tab" aria-selected="false" tabindex="-1">
+                  <span class="mdc-tab__content">
+                    <span class="mdc-tab__text-label">Soft Drinks</span>
+                  </span>
+                  <span class="mdc-tab-indicator rebar-tab-indicator">
+                    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                  </span>
+                  <span class="mdc-tab__ripple"></span>
+                </button>
+
                 <button class="mdc-tab rebar-tab" role="tab" aria-selected="false" tabindex="-1">
                   <span class="mdc-tab__content">
-                    <span class="mdc-tab__text-label">Cocktail</span>
+                    <span class="mdc-tab__text-label">Cocktails</span>
                   </span>
                   <span class="mdc-tab-indicator rebar-tab-indicator">
                     <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
@@ -59,6 +69,17 @@ class TabBar extends React.Component {
                   </span>
                   <span class="mdc-tab__ripple"></span>
                 </button>
+                
+                <button class="mdc-tab rebar-tab" role="tab" aria-selected="false" tabindex="-1">
+                  <span class="mdc-tab__content">
+                    <span class="mdc-tab__text-label">Beer</span>
+                  </span>
+                  <span class="mdc-tab-indicator rebar-tab-indicator">
+                    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                  </span>
+                  <span class="mdc-tab__ripple"></span>
+                </button>
+
               </div>
             </div>
           </div>
