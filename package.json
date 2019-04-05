@@ -1,0 +1,60 @@
+{
+  "name": "rebar",
+  "version": "0.1.0",
+  "description": "Front-end for Root Ventures' coffee & cocktail bar",
+  "author": "Root Ventures",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-object-assign": "^7.2.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.0.0",
+    "@material/button": "^0.41.0",
+    "@material/card": "^0.41.0",
+    "@material/chips": "^0.41.0",
+    "@material/layout-grid": "^0.41.0",
+    "@material/ripple": "^0.41.0",
+    "@material/select": "^0.41.0",
+    "@material/tab": "^0.41.0",
+    "@material/tab-bar": "^0.41.0",
+    "@material/tab-indicator": "^0.41.0",
+    "@material/tab-scroller": "^0.41.0",
+    "@material/textfield": "^0.41.0",
+    "@material/top-app-bar": "^0.41.0",
+    "@material/typography": "^0.41.0",
+    "babel-loader": "^8.0.5",
+    "cp": "^0.2.0",
+    "css-loader": "^1.0.0",
+    "express": "^4.16.3",
+    "extract-loader": "^3.0.0",
+    "file-loader": "^2.0.0",
+    "jsx-loader": "^0.13.2",
+    "node-sass": "^4.9.4",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-scripts": "2.1.8",
+    "sass-loader": "^7.1.0",
+    "typescript": "^3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "webpack",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "now-build": "react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "repository": {
+    "url": "https://github.com/rootvc/rebar"
+  },
+  "license": "MIT"
+}
