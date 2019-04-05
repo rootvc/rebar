@@ -1,3 +1,6 @@
+# Root Ventures // Rebar
+
+* Note that deploy may not work exactly as described... Try `webpack` locally and then `now` to deploy.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
